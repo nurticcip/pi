@@ -1,0 +1,112 @@
+#main {
+  background-image: url(../../images/main-bg.png);
+  width: 100%;
+}
+
+.main {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.ques {
+  border: 6px solid #1300ed;
+  border-radius: 100%;
+  width: 90px;
+  height: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.2s;
+}
+.ques:hover {
+  border: 7px solid #058743;
+  transform: scale(1.05);
+}
+
+.ques a {
+  text-decoration: none;
+  color: #000;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.category {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+}
+
+.main-hero {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+.category h1 {
+  color: #000;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.main-header {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.main-header img {
+  width: 90px;
+  height: 90px;
+  object-fit: cover;
+  border-radius: 100%;
+}
+
+.main-header h1 {
+  color: #000;
+  font-size: 26px;
+  font-weight: 700;
+  width: 360px;
+}
+
+.main-body {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0;
+}
+
+.main-team {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: space-between;
+}
+
+.main-team h1 {
+  color: #000;
+  font-size: 26px;
+  font-weight: 700;
+}
+.main-team h2 {
+  color: #000;
+  font-size: 25px;
+  font-weight: 500;
+}
+.main-team span {
+  color: #000;
+  font-size: 25px;
+  font-weight: 500;
+}
+
+.main-team button {
+  color: #023047;
+  font-size: 20px;
+  font-weight: 600;
+  padding: 11px 20px;
+  border: none;
+  border-radius: 10px;
+  background: #ffb703;
+  margin: 20px 0;
+  cursor: pointer;
+}
